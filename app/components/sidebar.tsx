@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
           ChatGPT 代理
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          站长：杨斌, 联系方式： <email>hexhero@outlook.com</email>
+          站长：杨斌, 联系方式： <a href='mailto:hexhero@outlook.com'>hexhero@outlook.com</a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
