@@ -10,7 +10,7 @@ import { getServerSideConfig } from "./config/server";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "ChatGPT",
+  title: "ChatGPT 代理",
   description: "站长：杨斌 联系方式: hexhero@outlook.com",
   viewport: {
     width: "device-width",
